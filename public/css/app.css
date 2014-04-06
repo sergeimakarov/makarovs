@@ -1,0 +1,12 @@
+
+body {
+background-image:url("./img/barcode.jpg");
+background-repeat:repeat-x;
+background-size:200px;
+}
+.login {
+position:fixed;
+top:65px;
+right:5px;
+}
+
