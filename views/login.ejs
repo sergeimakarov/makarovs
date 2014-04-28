@@ -1,0 +1,11 @@
+
+<% layout('layouts/page') -%>
+<% block('title', "SYS/LOGIN") -%>
+<% block('stylesheets', '<link rel="stylesheet" href="css/app.css" />') -%>
+<% block('info', "<h4>Type your data in. If there is no a such user, then it will be created. </h4>") -%>
+<% block('scripts','<script src="/js/hello.js"></script>') -%>
+<form method='post' class="loginform">
+Name:<input name='name' type='text' required="true" size="16">
+Pass:<input name='pass' required="true" size="16" type="password" >
+<button type="submit">Submit</button>
+</form>

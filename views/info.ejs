@@ -1,0 +1,6 @@
+<% layout('layouts/page') -%>
+<% block('title', "SYS/ITEM'S INFO") -%>
+<% block('header', "<h3>Information about product with barcode: </h3>") -%>
+<% for(var i=0; i < 1; i++) { %>
+<%= data[i].barcode %>
+<% } %>
